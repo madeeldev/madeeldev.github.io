@@ -517,33 +517,33 @@
                 }, 400);
             };
 
-            const validateAnswer = (ev) => {
-                const $input = $(ev.currentTarget);
-                const question = $input.attr("name");
-                const value = $input.val();
+            // const validateAnswer = (ev) => {
+            //     const $input = $(ev.currentTarget);
+            //     const question = $input.attr("name");
+            //     const value = $input.val();
 
-                if (answers[question] === value) {
-                    swal({
-                    title: "Perfect answer",
-                    text:
-                        "You selected the correct answer, click the button below to proceed",
-                    icon: "success",
-                    button: "Proceed",
-                    }).then(() => {
-                    nextSlider();
-                    });
-                } else {
-                    swal({
-                    title: "Mistakes happen!'",
-                    text:
-                        "The answer that you selected is not correct, we get it mistakes happen, click the button below to see the solution",
-                    icon: "error",
-                    button: "Help me!",
-                    }).then(() => {
-                    handleSlideSolution();
-                    });
-                }
-            };
+            //     if (answers[question] === value) {
+            //         swal({
+            //         title: "Perfect answer",
+            //         text:
+            //             "You selected the correct answer, click the button below to proceed",
+            //         icon: "success",
+            //         button: "Proceed",
+            //         }).then(() => {
+            //         nextSlider();
+            //         });
+            //     } else {
+            //         swal({
+            //         title: "Mistakes happen!'",
+            //         text:
+            //             "The answer that you selected is not correct, we get it mistakes happen, click the button below to see the solution",
+            //         icon: "error",
+            //         button: "Help me!",
+            //         }).then(() => {
+            //         handleSlideSolution();
+            //         });
+            //     }
+            // };
 
             prevSlideButton.on("click", prevSlider);
             nextSlideButton.on("click", nextSlider);

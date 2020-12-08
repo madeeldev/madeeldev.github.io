@@ -298,11 +298,8 @@ img.ranola-logo {
     font-size: 16px;
     text-align: left;
   }
-  .slide-container {
-    width: 95%;
-  }
   .slide-option {
-    min-width: 260px;
-    max-width: 260px;
+    min-width: 200px;
+    max-width: 200px;
   }
 }

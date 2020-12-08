@@ -293,7 +293,7 @@ img.ranola-logo {
 }
 
 /* 5 */
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   h2 {
     font-size: 16px;
     text-align: left;
@@ -302,7 +302,7 @@ img.ranola-logo {
     width: 95%;
   }
   .slide-option {
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 260px;
+    max-width: 260px;
   }
 }

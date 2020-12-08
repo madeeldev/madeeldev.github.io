@@ -292,38 +292,17 @@ body {
     height: auto;
   }
   
-  
-  /* media queries */
-  /* 1 */
-  @media(min-width: 1200px){
-  
-  }
-  
-  /* 2 */
-  @media(max-width: 990px){
-  
-  }
-  
-  /* 3 */
-  @media(max-width: 800px){
-  
-  }
-  
-  /* 4 */
-  @media(max-width: 600px){
-  
-  }
-  
   /* 5 */
   @media(max-width: 480px){
-    .main-enc{
-      padding: 1vh 1vw;
-      overflow: hidden;
-    }
-  }
-  /* 5 */
-  @media(max-width: 330px){
     h2{
-      font-size: 46px;
+      font-size: 18px;
+      text-align: left;
+    }
+    .slide-container {
+      width: 96%;
+    }
+    .slide-option {
+      min-width: 330px;
+      max-width: 330px;
     }
   }

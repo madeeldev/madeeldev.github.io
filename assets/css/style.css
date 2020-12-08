@@ -295,12 +295,12 @@ img.ranola-logo {
 /* 5 */
 @media (max-width: 480px) {
   h2 {
-    font-size: 4px;
+    font-size: 16px;
     text-align: left;
   }
   .slide-option {
     padding: 10px 16px;
     min-width: 200px;
-    max-width: 200px;
+    max-width: 240px;
   }
 }

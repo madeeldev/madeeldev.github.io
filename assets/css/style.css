@@ -329,15 +329,15 @@ img.ranola-logo {
   .dv1 {
     margin: 3px;
     padding: 3px 10px;
-    font-size: 10px;
+    font-size: 12px;
     font-weight: bold;
   }
   .dv2 {
     margin: 3px;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .slide-middle {
-    display: block;
+    /* display: block; */
   }
 }

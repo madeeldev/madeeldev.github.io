@@ -203,7 +203,7 @@ a,
 }
 
 .slide-option input:checked + .slide-option-bg {
-  background: #dbffb0;
+  background: #aeefff;
 }
 
 .slide-option label ~ .slide-option-bg {

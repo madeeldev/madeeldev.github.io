@@ -292,17 +292,19 @@ body {
     height: auto;
   }
   
-  /* 5 */
-  @media(max-width: 480px){
-    h2{
-      font-size: 18px;
-      text-align: left;
-    }
-    .slide-container {
-      width: 96%;
-    }
-    .slide-option {
-      min-width: 330px;
-      max-width: 330px;
-    }
+ /* 5 */
+@media (max-width: 480px) {
+  h2 {
+    font-size: 16px;
+    text-align: left;
+    max-width: 240px;
   }
+  .slide-option {
+    padding: 10px 18px;
+    min-width: 200px;
+    max-width: 240px;
+  }
+  .slide-option span {
+    font-size: 11px;
+  }
+}

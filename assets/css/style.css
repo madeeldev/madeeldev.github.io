@@ -342,7 +342,7 @@ img.ranola-logo {
   .slide-option {
     padding: 10px 18px;
     min-width: 200px;
-    max-width: 240px;
+    /* max-width: 240px; */
   }
   .slide-option span {
     font-size: 11px;

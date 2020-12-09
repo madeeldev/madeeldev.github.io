@@ -326,7 +326,7 @@ img.ranola-logo {
   h2 {
     font-size: 16px;
     text-align: left;
-    max-width: 240px;
+    /* max-width: 240px; */
     margin: auto;
   }
   #pheading {

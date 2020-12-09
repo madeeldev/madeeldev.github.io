@@ -302,6 +302,7 @@ img.ranola-logo {
     font-size: 16px;
     text-align: left;
     max-width: 240px;
+    margin: auto;
   }
   .slide-option {
     padding: 10px 18px;
@@ -310,5 +311,18 @@ img.ranola-logo {
   }
   .slide-option span {
     font-size: 11px;
+  }
+  .PresentationDetail {
+    /* background-color: #dbffb0; */
+  }
+  .dv1 {
+    margin: 3px;
+    padding: 3px 10px;
+    font-size: 8px;
+    font-weight: bold;
+  }
+  .dv2 {
+    margin: 3px;
+    font-size: 8px;
   }
 }

@@ -292,6 +292,31 @@ img.ranola-logo {
   width: 120px;
   height: auto;
 }
+/*  */
+#pheading {
+  padding-top: 16px;
+}
+#psubheading {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #7b256e;
+}
+
+.PresentationDetail {
+  background-color: #dbffb0;
+  margin-top: 9px;
+}
+.dv1 {
+  margin: 3px;
+  padding: 3px 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.dv2 {
+  margin: 3px;
+  font-size: 13px;
+}
 
 /* 5 */
 @media (max-width: 480px) {
